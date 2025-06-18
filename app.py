@@ -43,7 +43,7 @@ PAGES = [
 
 # ====== SETUP ====== #
 st.set_page_config(
-    page_title="Ponnapalli Poorna Sandeep | AI/ML Engineer",
+    page_title="Ponnapalli Poorna Sandeep | AI/ML Trainee",
     page_icon="🚀",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -98,7 +98,7 @@ def resume_download_section(key_suffix=""):
     
     if resume_bytes:
         st.download_button(
-            label="📄 Download Full Resume",
+            label="📄 Download Resume",
             data=resume_bytes,
             file_name="Ponnapalli_Poorna_Sandeep_Resume.pdf",
             mime="application/pdf",
@@ -256,7 +256,7 @@ local_css()
 # ====== SIDEBAR ====== #
 with st.sidebar:
     st.markdown("## Ponnapalli Poorna Sandeep")
-    st.markdown("**AI/ML Engineer | AWS Cloud**")
+    st.markdown("**AI/ML Trainee | AWS Cloud Intern**")
     
     if placeholder_img:
         st.image(placeholder_img, width=200, use_column_width='always')
@@ -288,9 +288,9 @@ if page == "🏠 Home":
     
     with col1:
         st.markdown("# Hi, I'm **Ponnapalli Poorna Sandeep**")
-        st.markdown("### AI/ML Engineer | AWS Cloud")
+        st.markdown("### AI/ML Trainee | AWS Cloud Intern")
         st.markdown("""
-        I build **scalable AI solutions** with expertise in:
+        I am an enthusiastic AI/ML trainee with a strong foundation in model development, deployment, and automation workflows. Passionate about learning and exploring innovative ML applications.:
         - Machine Learning & Deep Learning
         - Natural Language Processing (NLP)
         - Cloud Computing (AWS)
@@ -348,7 +348,7 @@ elif page == "💼 Experience":
     experience_card(
         company="Lyros Technologies",
         duration="2025-Present",
-        position="AI/ML Engineer",
+        position="AI/ML Trainee",
         achievements=[
             "Improved model performance by 18% through advanced hyperparameter optimization techniques",
             "Built NLP pipelines processing 10K+ documents daily with 92% accuracy",
@@ -357,13 +357,13 @@ elif page == "💼 Experience":
         technologies=[
             "Python", "TensorFlow", "PyTorch", 
             "Pandas", "NumPy", "Docker", 
-            "Kubernetes", "AWS"
+            "Kubernetes"
         ]
     )
     
     experience_card(
-        company="CloudTech Solutions",
-        duration="2023",
+        company="HMI Engineering Services",
+        duration="3 Months",
         position="AWS Cloud Intern",
         achievements=[
             "Configured 5 EC2 instances with auto-scaling, reducing deployment time by 25%",
@@ -478,7 +478,7 @@ elif page == "📩 Contact":
         📍 **Location:** {CONTACT_INFO['location']}  
         """)
         
-        st.markdown("### Social Media")
+        st.markdown("### Social ")
         st.markdown(f"""
         <div style="margin-top: 1rem;">
             <a href="{SOCIAL_LINKS['github']}" class="btn" target="_blank">GitHub</a>
