@@ -431,9 +431,9 @@ elif page == "🚀 Projects":
         project_card(
             title="Secure Auth System (Supabase)",
             description="""
-            Implemented secure user authentication with OTP and role-based access control.
+            Implemented secure user authentication and role-based access control.
             """,
-            tech_stack=["Supabase", "Streamlit", "JWT"],
+            tech_stack=["Supabase", "Streamlit", "Python"],
             results=[
                 "Protected 10,000+ user accounts",
                 "Zero security breaches"
